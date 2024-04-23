@@ -1,0 +1,226 @@
+body {
+    color: rgb(255, 0, 0);
+}
+
+h1 {
+    color: #FFF;
+}
+
+h2 {
+    color: hsl(120, 100%, 50%);
+}
+
+p {
+    color: orange;
+}
+
+div {
+    color: color(display-p3 1 0.5 0);
+    background-color: color-mix(blend, red, blue);
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div {
+    margin: 20px 10px;
+}
+
+footer {
+    margin: auto;
+}
+
+details {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+summary {
+    padding: 5px 10px;
+}
+
+section {
+    border-style: solid;
+}
+
+nav {
+    border-color: blue;
+}
+
+nav {
+    border-width: 2px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+}
+
+h1 {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+}
+main {
+    display: block;
+}
+
+video {
+    height: 240px;
+}
+
+video {
+    width: 320px;
+}
+
+img {
+    max-width: 100%;
+}
+
+div {
+    min-width: 300px;
+}
+
+div {
+    position: relative;
+}
+
+ul {
+    position: static;
+}
+
+a:hover {
+    color: red;
+}
+
+button:active {
+    background-color: gray;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#flex {
+    display: flex;
+}
+
+ul {
+    display: block;
+}
+
+li{
+    margin: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-rows: auto auto;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Fallback font */
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+    flex-direction: column;
+    }
+
+    body {
+        font-size:50px !important;
+    }
+
+    footer {
+        font-size: 50px;
+    }
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif; /* 3rd party */
+}
+
+.myClass {
+    color: blue;
+}
+
+#myId {
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    font-style: italic;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav > a {
+    font-weight: bold;
+}
+
+h2 ~ p {
+    font-size: 14px;
+}
+
+h2 + p {
+    margin-top: 10px;
+}
+
+div.myClass {
+    background-color: lightblue;
+}
+
+h3:has(+ul){
+    margin: 0 0 0.25rem 0;
+}
